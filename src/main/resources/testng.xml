@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API TESTS" verbose="1" >
+    <test name="PetStoreController" >
+        <classes>
+            <class name="PetControllerTest" />
+        </classes>
+    </test>
+    <test name="StoreController" >
+        <classes>
+            <class name="StoreControllerTest" />
+        </classes>
+    </test>
+</suite>
